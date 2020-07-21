@@ -43908,9 +43908,7 @@ void myInit() {
 	glDepthFunc(GL_LEQUAL);
 	glShadeModel(GL_SMOOTH);
 	glHint(GL_PERSPECTIVE_CORRECTION_HINT, GL_NICEST);
-	glMatrixMode(GL_PROJECTION);
 	glMatrixMode(GL_MODELVIEW);
-	glLoadIdentity();
 }
 
 void handleTimer(int) {
